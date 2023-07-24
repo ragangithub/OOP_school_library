@@ -1,6 +1,8 @@
 require './nameable'
 
 class BaseDecorator < Nameable
+  attr_accessor :nameable
+
   # In the constructor assign a nameable object from params to an instance variable.
   def initialize(nameable)
     super()
