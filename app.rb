@@ -37,16 +37,13 @@ class App
     print 'Enter age: '
     age = gets.chomp.to_i
 
-
-
-    case selection
+   case selection
     when 1
       print 'Does student have parent permission [Y/N]: '
 
       permission = gets.chomp.downcase == 'y'
 
-
-      student = Student.new('sd', age, name, parent_permission: permission)
+ student = Student.new('sd', age, name, parent_permission: permission)
       @person << student
 
     when 2
