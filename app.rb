@@ -84,7 +84,7 @@ class App
     print 'Date(yyyy/mm/dd): '
     date = gets.chomp
 
-    rental = Rental.new(date, @books[book_num], @person[person_num])
+    rental = Rental.new(@books[book_num], @person[person_num])
     @rentals << rental
     puts ''
     puts 'Success'
