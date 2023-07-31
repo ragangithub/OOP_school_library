@@ -103,6 +103,11 @@ rubocop -A
 - GitHub: [ragan](https://github.com/ragangithub)
 - LinkedIn: [Ragan Hailu](https://linkedin.com/in/raganhailu)
 
+👤 **Denio Nhanale**
+
+- GitHub: [ragan](https://github.com/deniodev)
+- LinkedIn: [Ragan Hailu](https://linkedin.com/in/denionhanale)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -133,7 +138,7 @@ If you like this project kindly give it a star⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the idea for this project.
+We would like to thank Microverse for the idea for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
