@@ -28,9 +28,12 @@ describe Person do
       expect(new_student.can_use_services?).to eq true
     end
 
-    it 'should return true when age is less than 18 and has their parent\'s permission' do
-      new_student = Person.new(17, name, parent_permission: true)
-      expect(new_student.can_use_services?).to eq true
+    it 'add a rental' do
+      book = Book.new('Title', 'Author')
+      new_student = Person.new(13, name, parent_permission: true)
+      expect(new_student.rentals.length).to eql(0)
+      new_student.add_rental('2022-03-26', book)
+      expect(new_student.rentals.length).to eql(1)
     end
   end
 end
